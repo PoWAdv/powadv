@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+    <title>PoWAdv ERC20 Token</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <link rel="icon" type="image/png" href="https://powether.github.io/powether/app/assets/images/poweth512.png" />
+
+  <link href="./assets/main.css" rel="stylesheet">
+  <link href="./assets/timeline.css" rel="stylesheet">
+  </head>
+  <body>
+
+
+
+        <nav id="navbar" class="navbar" role="navigation" aria-label="main navigation">
+       <div class="navbar-brand" style="padding-left:10px;">
+         <a class="navbar-item" href="/">
+           <img :src="brandImageUrl" height="28" width="28" />
+         </a>
+
+
+
+       </div>
+
+       <div class="navbar-menu">
+         <div class="navbar-end" style="padding:5px;">
+
+           <div class="navbar-item">
+              <a href="https://www.reddit.com/r/poweth" target="_blank">
+                <img :src="redditLogo" height="28" width="28" target="_blank"/>
+              </a>
+            </div>
+
+          <div class="navbar-item">
+             <a href="https://github.com/powether/PoWEth-token" target="_blank">
+               <img :src="githubLogo" height="28" width="28" target="_blank"/>
+             </a>
+           </div>
+
+         </div>
+       </div>
+</nav>
+
+
+
+<div class="page-container" id="home">
+
+      <section class="hero">
+        <div class="hero-body">
+          <div class="container has-text-centered">
+            <h1 class="title font-primary-title color-primary">
+              PoWAdv ERC20
+            </h1>
+            <h2 class="subtitle">
+              Mineable ERC20 Token
+            </h2>
+
+            <p style="max-width:60%;margin: 0 auto;">
+              The implementation of a Keccak PoW Coin on the Ethereum network as a smart contract.  Mined using Proof of Work.
+             </p>
+
+        <div class="announcement">     
+            <div class="features subtitle justify"><b>
+            Hard fork announcement:</b></div>
+            <div class="has-text-justified">
+            <p><b>When?:</b>  2018.03.31. 16:00 GMT+1</p>
+            <p><b>HardFork White Paper:</b> <a href="https://github.com/powether/HardForkWhitepaper/">https://github.com/powether/HardForkWhitepaper/</a></p>
+            <br>
+            <p>
+            </p> 
+            <br>  
+          </div>
+      </div>
+
+
+          <div class="features subtitle has-text-centered">Token features:</div>
+
+          <div class="flex-container">
+              <div class="small-flex">
+                  <span class="span-title">Open Source:</span>
+                  <br>
+                   PoWAdv created for everyone, who would like to be part of the economic revolution which belong to cryptocurrencies.
+              </div>
+            <div class="small-flex">
+            <span class="span-title">Fair distribution:</span>
+              <br>
+            POWA started with a ninja start, no premine, no ICO, no DevFee. Only the mining rewards create the value.
+            We believe Proof of Work is the best way to keep transparency and reward supporters by the time.
+            </div>
+            <div class="small-flex">
+            <span class="span-title">Ethereum blockhcain:</span>
+             <br>
+              As an ERC20 Token POWA can be used any time until the Ethereum blockchain is up. We created a real Web 3.0 application, the POWA is truely decentralized and can resist any directed attack attemp.
+            </div>
+            <div class="small-flex">
+                <span class="span-title">Mining with responsibility:</span>
+                <br>
+                 We do Love our planet, just like everyone. We use mining only for creating the Tokens, future usage or validation driven by the Ethereum blockchain. Our token is more efficient than classic blockchains.
+            </div>
+
+          </div> 
+
+        </div>
+      </section>
+
+
+
+
+      <div id="dashboard" class="box has-text-centered has-small-text-mobile" style="overflow-x:auto; min-height:380px;">
+        <div class='subtitle has-text-centered'>Network and Mining</div>
+        <div class="flex-container">  
+            <div>
+                <table class='table has-text-centered'>
+                <span class="span-title">Contract stats:</span>
+                <br>
+                <br>
+                <tbody>
+                  <tr> <td> Address: <a :href='contractUrl' target="_blank"> {{ contractAddress }} </a>  </td> </tr>
+                  <tr> <td> Total Supply:  {{ totalSupply }} / Circulating Supply: {{ amountMined }} </td> </tr>
+                <tr> <td> Mining Difficulty:  {{ difficulty }}</td></tr>
+                <tr> <td> Mining Challenge:  {{ challenge_number }}</td></tr>
+
+                <tr> <td> Last Reward To:  {{ lastRewardTo }}</td></tr>
+                <tr> <td> Last Reward Amount:  {{ lastRewardAmount }}</td></tr>
+                <tr> <td> Last Reward EthBlock#:  {{ lastRewardEthBlockNumber }}</td></tr>
+              </tbody>
+                </table>
+          </div> 
+              <div>
+                  <span class="span-title">Mining:</span>  
+                  <br>
+                  <br>
+                  <h3 class="left">Mining softwares:</h3>
+                  <p><a href="https://github.com/powadv/" target="_blank">
+                    PoWAdv Miner
+                  </a>
+                </p>
+                <br>
+            </div>   
+
+
+
+      </div>
+      </div>
+
+      <div id="app">
+          <div class='subtitle has-text-centered'>Roadmap</div>
+      <div class="timeline">
+        <div class="container_time left_time">
+          <div class="content_time">
+            <h2>2018.03.20.</h2>
+            <p>Testnet release. <br></p>
+          </div>
+        </div>
+        <div class="container_time right_time">
+          <div class="content_time">
+            <h2>2018 03.31.:</h2>
+            <p>Mainnet release!<br></p>
+          </div>
+        </div>
+        <div class="container_time left_time">
+          <div class="content_time">
+            <h2>2018 Q2:</h2>
+            <p>More exchanges, Marketing campaings and partnerships with mining companies.</p>
+          </div>
+        </div> 
+        <div class="container_time right_time">
+          <div class="content_time">
+            <h2>After Serenity Ethereum fork:</h2>
+            <p>PoWAdv will continue the Proof of Work distribution on ETH network. We will bring more people under the hood!</p>
+          </div>
+        </div>  
+      </div> 
+    </div>
+  </div>
+
+
+
+      <div id="about" class="box has-text-centered">
+        <div class="">
+          <p> Where you can find more: </p>
+          <ul>
+            <li> <a href="https://bitcointalk.org/">Bitcointalk</a> </li>
+            <li> <a href="./wallet">Metamask Wallet</a> </li>
+          </ul>
+
+        </div>
+
+        <div class="">
+
+        </div>
+      </div>
+
+
+  </div>
+
+
+
+      <footer class="footer">
+   <div class="container">
+     <div class="content has-text-centered">
+       <p>
+         <strong>PoWAdv</strong> Mineable ERC20 Token.
+
+          <br>
+          The source code is licensed
+         <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
+         is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+       </p>
+     </div>
+   </div>
+ </footer>
+
+
+
+
+
+  <script type="text/javascript" src="./bundle.js"></script></body>
+</html>
