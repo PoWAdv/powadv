@@ -29790,7 +29790,7 @@ class EthHelper {
 /* 42 */
 /***/ (function(module, exports) {
 
-module.exports = {"network-name":"MainNet","contracts":{"_PoWEth":{"name":"PoWEthToken","blockchain_address":"0x2EE6D1a3ba4e80a61BdFB48a90d40a5CeF455326"}}}
+module.exports = {"network-name":"MainNet","contracts":{"_PoWEth":{"name":"PoWEthToken","blockchain_address":"0x1a136ae98b49b92841562b6574d1f3f5b0044e4c"}}}
 
 /***/ }),
 /* 43 */
